@@ -1,0 +1,652 @@
+*{
+  
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  
+}
+
+body{
+  
+  width: 100%;
+  height: 95%;
+  
+}
+
+#navbar{
+  
+  width: 400px;
+  height: 490px;
+  position: relative;
+ 
+  
+ 
+
+  
+}
+
+
+.nav{
+  
+  width: 100%;
+  height: 30%;
+  background: rgba(245, 176, 65);
+  margin-top: 136%;
+  position: fixed;
+ 
+
+}
+
+.nav li{
+  
+  width: 122px;
+  height: 40px;
+  float: left;
+  margin-top: 3%;
+  margin-left: -9%;
+  
+  
+  
+ 
+  
+  
+}
+
+.nav a{
+  
+  text-decoration: none;
+  color: black;
+  
+  
+  
+ 
+ 
+}
+
+.nav img{
+  
+  width: 35px;
+  height: 35px;
+  margin-left: 16%;
+  
+}
+
+#nbcontent{
+  
+  width: 100%;
+  height: 100%;
+}
+
+#nbcontent img{
+  
+  width: 100%;
+  height: 40%;
+  
+}
+
+.nbbox{
+  
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  top: 0%;
+  background-color: rgba(245, 176, 65,0.9);
+  
+}
+
+.nbbox h1{
+  
+  width: 100%;
+  height: 30%;
+  margin-top: 15%;
+  position: absolute;
+  color: white;
+  margin-left: 22%;
+  
+}
+.nbbox p{
+  
+  width: 100%;
+  height: 30%;
+  margin-top: 22%;
+  color: white;
+  position: absolute;
+  margin-left: 10%;
+  
+}
+
+.nbbox h2{
+  
+  width: 100%;
+  height: 30%;
+  color: white;
+  margin-top: 33%;
+  position: absolute;
+  margin-left: 10%;
+  
+}
+
+.boxes{
+  
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  margin: 0%;
+  top: 40%;
+  
+  
+}
+
+.box1{
+  
+  width:150px;
+  height: 100px;
+  background: rgba(245, 176, 65,0.9);
+  border-left: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  margin-top: 7%;
+  margin-left: 2%;
+  
+}
+
+.box2{
+  width: 150px;
+  height: 100px;
+  background: lightsteelblue;
+  border-left: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  margin-top: 10%;
+  margin-left: 2%;
+  
+  
+}
+.box3{
+  
+  width: 150px;
+  height: 100px;
+  background: darkcyan;
+  border-right: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  position: absolute;
+  top: 9%;
+  left: 50%;
+}
+
+.box4{
+  
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  border-right: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  top: 57%;
+  left: 50%;
+  background: darkgrey;
+  
+}
+
+.box1 img{
+  
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.box1 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+.box2 img{
+  
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.box2 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+.box3 img{
+  
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.box3 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+.box4 img{
+  
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.box4 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+@media (min-width: 361px) {
+  
+  
+  #navbar{
+    
+    width: 650px;
+    height: 490px;
+    
+  }
+    #nbcontent img{
+      
+      width: 100%;
+      height:40%;
+    }
+    
+    .nbbox{
+      
+      width: 100%;
+      height: 40%;
+    }
+    
+    .nbbox h1{
+  
+  width: 100%;
+  height: 30%;
+  margin-top: 7%;
+  position: absolute;
+  color: white;
+  margin-left: 30%;
+  
+}
+.nbbox p{
+  
+  width: 100%;
+  height: 30%;
+  margin-top: 14%;
+  color: white;
+  position: absolute;
+  margin-left: 30%;
+  
+}
+
+.nbbox h2{
+  
+  width: 100%;
+  height: 30%;
+  color: white;
+  margin-top: 20%;
+  position: absolute;
+  margin-left: 30%;
+  
+}
+.boxes{
+  
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  margin: 0%;
+  top: 40%;
+  
+  
+}
+
+.box1{
+  
+  width:150px;
+  height: 100px;
+  background: rgba(245, 176, 65,0.9);
+  border-left: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  margin-top: 7%;
+  margin-left: 15%;
+  
+}
+
+.box2{
+  width: 150px;
+  height: 100px;
+  background: lightsteelblue;
+  border-left: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  margin-top: 10%;
+  margin-left: 15%;
+  
+  
+}
+.box3{
+  
+  width: 150px;
+  height: 100px;
+  background: darkcyan;
+  border-right: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  position: absolute;
+  top: 16%;
+  left: 57%;
+}
+
+.box4{
+  
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  border-right: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  top: 73%;
+  left: 57%;
+  background: darkgrey;
+  
+}
+
+.box1 img{
+  
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.box1 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+.box2 img{
+  
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.box2 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+.box3 img{
+  
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.box3 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+.box4 img{
+  
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.box4 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+.nav{
+  
+  width: 100%;
+  height: 13%;
+  background: rgba(245, 176, 65);
+  margin-top: 80%;
+  position: absolute;
+ 
+
+}
+
+.nav li{
+  
+  width: 100px;
+  height: auto;
+  float: left;
+  top: 0%;
+  margin-left: 6%;
+  padding: 0%;
+  
+  
+  
+  
+  
+ 
+  
+  
+}
+
+.nav a{
+  
+  text-decoration: none;
+  color: black;
+  
+  
+  
+ 
+ 
+}
+
+.nav img{
+  
+  width: 35px;
+  height: 35px;
+  margin-left: 16%;
+  
+  
+}
+
+}
+
+@media (min-width:650px){
+  
+  #navbar{
+    
+    width: 100%;
+    height: 100%;
+    
+    
+   
+  }
+  
+ 
+ body{
+   
+   background-color: rgba(245, 176, 65);
+ }
+  
+  .nbbox{
+    
+    width: 100%;
+    height: 190%;
+    position:  relative;
+  }
+  
+  .nbbox h1{
+  
+ 
+  opacity: 0%;
+  
+  
+}
+.nbbox p{
+  
+  
+opacity: 0%;
+
+}
+
+.nbbox h2{
+  
+ 
+  opacity: 0%;
+  
+}
+
+ .boxes{
+  
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  
+  
+  
+}
+
+.box1{
+  
+  width:300px;
+  height: 300px;
+  background: olivedrab;
+  padding: 2.8%;
+  margin-top: 7%;
+  margin-left: 10%;
+  
+}
+
+.box2{
+  width: 300px;
+  height: 300px;
+  padding: 1%;
+  background: lightsteelblue;
+  margin-top: 10%;
+  margin-left: 10%;
+  
+  
+}
+.box3{
+  
+  width: 300px;
+  height: 300px;
+  background: darkcyan;
+  padding: 1%;
+  top: 31%;
+  left: 60%;
+}
+
+.box4{
+  
+  width: 300px;
+  height: 300px;
+  top: 4%;
+  padding: 1%;
+  left: 60%;
+  background: darkgrey;
+  
+}
+.nav{
+  
+  width: 100%;
+  height: 6%;
+  background: rgba(245, 176, 65);
+  margin-top: 0%;
+  position: fixed;
+ 
+
+}
+.nav li{
+  
+  width: 100px;
+  height: auto;
+  float: left;
+  top: 0%;
+  margin-left: 10.5%;
+  padding: 0%;
+  
+}
+
+.box1 img{
+  
+  width: 150px;
+  height: 150px;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+.box1 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 37px;
+}
+.box2 img{
+  
+  width: 150px;
+  height: 150px;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+.box2 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+}
+.box3 img{
+  
+  width: 150px;
+  height: 150px;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+
+.box3 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.box4 img{
+  
+  width: 150px;
+  height: 150px;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+
+.box4 p{
+  
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+}
+

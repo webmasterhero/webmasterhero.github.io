@@ -1,0 +1,508 @@
+*{
+  
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+}
+
+body{
+  
+  width: 100%;
+  height: 100%;
+}
+
+#contact{
+  
+  width: 100%;
+  height: 12%;
+  background: orange;
+  position: fixed;
+
+}
+
+#contact img {
+ 
+   width: 30px;
+   height: 30px;
+   background: white;
+   margin-top: 3%;
+   margin-left: 3%;
+   border-radius: 50%;
+   border: 10px solid white;
+   position: relative;
+   
+ 
+ }
+#contact h1{
+  
+ position: absolute;
+ top: 0%;
+ margin-left: 20%;
+ margin-top: 7%;
+ color: white;
+ font-family: monospace;
+  
+}
+
+#contactf{
+  
+  width: 100%;
+  height: 100%;
+  font-family: fantasy;
+  background: whitesmoke;
+ 
+  
+  
+ 
+ 
+  
+}
+.fbox1{
+  
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  top: 25%;
+  background: white;
+  border-left: 6px solid #ddd;
+ 
+  border-radius: 50%;
+  left: 5%;
+  
+  
+}
+
+.fbox1 h1{
+  
+  left: 25%;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+
+.fbox1 p{
+  
+  left: 115%;
+  position: absolute;
+ 
+  top: 30%;
+}
+
+.fbox2{
+  
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  border-left: 6px solid #ddd;
+  top: 46%;
+  background: white;
+  border-radius: 50%;
+  left: 5%;
+}
+.fbox2 h1{
+  
+  left: 25%;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+
+.fbox2 p{
+  
+  left: 115%;
+  position: absolute;
+ 
+  top: 30%;
+}
+.fbox3{
+  
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  border-left: 6px solid #ddd;
+  top: 65%;
+  background: white;
+  border-radius: 50%;
+  left: 5%;
+}
+.fbox3 h1 {
+ 
+   left: 25%;
+   position: absolute;
+   left: 40%;
+   top: 30%;
+ }
+ 
+ .fbox3 p {
+ 
+   left: 115%;
+   position: absolute;
+   top: 10%;
+ }
+
+.lastbox{
+  
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 89%;
+
+  background: orange;
+ 
+  left: 0%;
+  
+}
+.lastbox p{
+  
+  
+  top: 92%;
+  font-size: 10px;
+  position: fixed;
+  background: orange;
+  
+  left: 57%;
+  
+}
+
+.lastbox1 {
+  
+  
+  width: 40px;
+  height: 20px;
+  top: 85%;
+  margin-top: 10%;
+  position: fixed;
+  margin-left: 3%;
+  padding: 1.5%;
+  border: 1px solid black;
+  
+}
+
+.lastbox1 a{
+  
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-left: 1.5%;
+}
+
+.lastbox1 a:hover{
+  
+ 
+  font-size: 35px;
+  transition: 0.5s linear;
+   
+}
+
+@media (min-width:361px){
+  
+#contact{
+  
+  width: 100%;
+  height: 30%;
+  background: orange;
+  position: fixed;
+
+}
+
+#contact h1{
+  
+  margin-left: 12%;
+  margin-top: 5%;
+}
+.fbox1{
+  
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 50%;
+  background: white;
+  border-left: 6px solid #ddd;
+ 
+  border-radius: 50%;
+  left: 50%;
+ 
+  
+  
+}
+
+.fbox1 h1{
+  
+  left: 25%;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+
+.fbox1 p{
+  
+  left: 115%;
+  position: absolute;
+ 
+  top: 30%;
+}
+
+.fbox2{
+  
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  border-left: 6px solid #ddd;
+  top: 34%;
+  background: white;
+  border-radius: 50%;
+  left: 30%;
+}
+.fbox2 h1{
+  
+  left: 25%;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+
+.fbox2 p{
+  
+  left: 115%;
+  position: absolute;
+ 
+  top: 30%;
+}
+.fbox3{
+  
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  border-left: 6px solid #ddd;
+  top: 55%;
+  background: white;
+  border-radius: 50%;
+  left: 10%;
+}
+.fbox3 h1 {
+ 
+   left: 25%;
+   position: absolute;
+   left: 40%;
+   top: 30%;
+ }
+ 
+ .fbox3 p {
+ 
+   left: 115%;
+   position: absolute;
+   top: 10%;
+ }
+
+ .lastbox{
+  
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 89%;
+
+  background: orange;
+ 
+  left: 0%;
+  
+}
+.lastbox p{
+  
+  
+  top: 92%;
+  font-size: 8px;
+  position: fixed;
+  background: orange;
+  left: 40%;
+  
+}
+
+.lastbox1 {
+  
+  
+  width: 40px;
+  height: 50px;
+  top: 85%;
+  margin-top: 0%;
+  position: fixed;
+  margin-left: 18%;
+  padding: 1.5%;
+  border: 1px solid black;
+  
+}
+
+.lastbox1 a{
+  
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-left: 1.5%;
+}
+
+.lastbox1 a:hover{
+  
+ 
+  font-size: 35px;
+  transition: 0.5s linear;
+   
+}
+
+}
+@media (min-width:650px){
+  
+#contact{
+  
+  width: 100%;
+  height: 7%;
+  background: orange;
+  position: fixed;
+
+}
+
+#contact h1{
+  
+  margin-left: 9%;
+  margin-top: 4%;
+}
+.fbox1{
+  
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 40%;
+  background: white;
+  border-left: 6px solid #ddd;
+  border-radius: 50%;
+  left: 30%;
+ 
+  
+  
+}
+
+.fbox1 h1{
+  
+  left: 25%;
+  position: absolute;
+  left: 40%;
+  font-size: 25px;
+  top: 30%;
+}
+
+.fbox1 p{
+  
+  left: 115%;
+  position: absolute;
+  font-size: 25px;
+  top: 30%;
+}
+
+.fbox2{
+  
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  border-left: 6px solid #ddd;
+  top: 28%;
+  background: white;
+  border-radius: 50%;
+  left: 30%;
+}
+.fbox2 h1{
+  
+  left: 25%;
+  position: absolute;
+  left: 40%;
+  font-size: 25px;
+  top: 30%;
+}
+
+.fbox2 p{
+  
+  left: 115%;
+  position: absolute;
+  font-size: 25px;
+ 
+  top: 30%;
+}
+.fbox3{
+  
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  border-left: 6px solid #ddd;
+  top: 54%;
+  background: white;
+  border-radius: 50%;
+  left: 30%;
+}
+.fbox3 h1 {
+ 
+   left: 25%;
+   position: absolute;
+   font-size: 25px;
+   left: 40%;
+   top: 30%;
+ }
+ 
+ .fbox3 p {
+ 
+   left: 115%;
+   position: absolute;
+   top: 10%;
+   font-size: 25px;
+ }
+ .lastbox{
+  
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 89%;
+
+  background: orange;
+ 
+  left: 0%;
+  
+}
+.lastbox p{
+  
+  
+  top: 90%;
+  font-size: 25px;
+  position: fixed;
+  background: orange;
+  left: 60%;
+  
+}
+
+.lastbox1 {
+  
+  
+  width: 40px;
+  height: 50px;
+  top: 88%;
+  margin-top: 0%;
+  position: fixed;
+  margin-left: 20%;
+  padding: 1.5%;
+  border: 1px solid black;
+  
+}
+
+.lastbox1 a{
+  
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin-left: 1.5%;
+}
+
+.lastbox1 a:hover{
+  
+ 
+  font-size: 25px;
+
+   
+   
+}
+}
+
