@@ -247,7 +247,7 @@ body{
   font-family: monospace;
 }
 
-@media (min-width: 361px) {
+@media (min-width: 361px)  {
   
   
   #navbar{
@@ -256,15 +256,21 @@ body{
     height: 490px;
     
   }
+
+  #nbcontent{
+
+    width: 100%;
+    height: 100%;
+  }
     #nbcontent img{
       
-      width: 100%;
+      width: 60%;
       height:40%;
     }
     
     .nbbox{
       
-      width: 100%;
+      width: 60%;
       height: 40%;
     }
     
@@ -301,7 +307,7 @@ body{
 }
 .boxes{
   
-  width: 100%;
+  width: 50%;
   height: 60%;
   position: absolute;
   margin: 0%;
@@ -485,6 +491,18 @@ body{
    
    background-color: rgba(245, 176, 65);
  }
+
+
+ #nbcontent{
+
+  width: 100%;
+  height: 100%;
+}
+  #nbcontent img{
+    
+    width: 100%;
+    height:40%;
+  }
   
   .nbbox{
     
